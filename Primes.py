@@ -1,3 +1,26 @@
+import math
+
+#credit for ideas goes to holmezideas.com
+def isPrime(num): 
+	num = int(num);
+	if(num<=1): 
+		return False
+	if(num==2): 
+		return True
+	if(num%2==0): 
+		return False
+	sqroot = math.sqrt(num); 
+
+	i = 3
+	while(i<=sqroot): 
+		if(num%i==0): 
+			return False
+		i+=2
+	
+	return True
+
+
+
 def getPrimes(maxP): 
 	primes = [];
 	allnums = [];
