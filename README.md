@@ -6,4 +6,7 @@ Solutions to projecteuler.net problems with some focus on creating reusable code
 all files should be testable by running the command "python filename.py test"
 
 Q36 is solved by DoubleBase.py
+
 Q37 is solved by Truncatable.py
+
+Q38 is solved by Pandigital.py
