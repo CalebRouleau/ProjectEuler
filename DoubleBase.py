@@ -1,6 +1,10 @@
 import sys
 
-powersOf10 = [1, 10, 100, 1000, 10000, 100000, 1000000, 10000000]
+powersOf10 = [1,]
+
+for index in range(20): 
+	powersOf10.append(powersOf10[index]*10)
+
 firstDigit10 = 7; 
 
 firstDigit2 = 0; 
