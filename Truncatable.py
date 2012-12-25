@@ -6,7 +6,7 @@ import Primes
 # if 54, return 10. if 234523 return 100000. etc.
 def getMagnitude(num): 
 	num = int(num); 
-	return math.pow(10, int(math.log10(num)))
+	return int(math.pow(10, int(math.log10(num))))
 
 def truncLeft(num): 
 	return num%getMagnitude(num)
